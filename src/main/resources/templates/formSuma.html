@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link th:href="@{/styles/bootstrap/bootstrap.css}" rel="stylesheet">
+    <script th:src="@{scripts/bootstrap/bootstrap.bundle.js}"
+        type="text/javascript"></script>
+</head>
+<body>
+<div class="card">
+    <div class="card-header">
+        Formulario de Promedio de Notas - Cibertec 2023-2
+    </div>
+    <div class="card-body">
+        <form>
+            <div class="form-floating mb-3">
+                <input type="number" class="form-control" id="txtcl1">
+                <label for="txtcl1">Control Lab.1</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="number" class="form-control" id="txtcl2">
+                <label for="txtcl2">Control Lab.1</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="number" class="form-control" id="txtcl3">
+                <label for="txtcl3">Control Lab.1</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="number" class="form-control" id="txtproyfin">
+                <label for="txtproyfin">Control Lab.1</label>
+            </div>
+            <button type="submit" class="btn btn-danger">
+                CALCULAR PROMEDIO</button>
+            <hr />
+            <div class="alert alert-warning" role="alert">
+                A simple warning alert—check it out!
+            </div>
+
+        </form>
+    </div>
+</div>
+</body>
+</html>
